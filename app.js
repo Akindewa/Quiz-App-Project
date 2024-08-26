@@ -69,97 +69,97 @@ let questions = [
 
   {
     numb: 7,
-    question: "What does === do in JavaScript?",
-    answer: "Compares values and types",
+    question: "How do you create a function in JavaScript?",
+    answer: "function myFunction() {}",
     options: [
-      "Compares only values",
-      "Compares values and types",
-      "Assigns a value",
-      "Check out for value only"
+      "function:myFunction() {}",
+      "create myFunction() {}",
+      "function myFunction() {}",
+      "function = myFunction() {}"
     ]
   },
 
   {
     numb: 8,
-    question: "What does === do in JavaScript?",
-    answer: "Compares values and types",
+    question: "Which operator is used to assign a value to a variable?",
+    answer: "=",
     options: [
-      "Compares only values",
-      "Compares values and types",
-      "Assigns a value",
-      "Check out for value only"
+      "=",
+      "==",
+      "===",
+      "!="
     ]
   },
 
   {
     numb: 9,
-    question: "What does === do in JavaScript?",
-    answer: "Compares values and types",
+    question: "How can you add a comment in JavaScript?",
+    answer: "// This is a comment",
     options: [
-      "Compares only values",
-      "Compares values and types",
-      "Assigns a value",
-      "Check out for value only"
+      "<-- This is a comment -->",
+      "# This is a comment",
+      "// This is a comment",
+      "/ This is a comment"
     ]
   },
 
   {
     numb: 10,
-    question: "What does === do in JavaScript?",
-    answer: "Compares values and types",
+    question: "What is the output of Boolean(0)?",
+    answer: "false",
     options: [
-      "Compares only values",
-      "Compares values and types",
-      "Assigns a value",
-      "Check out for value only"
+      "false",
+      "0",
+      "undefined",
+      "true"
     ]
   },
 
   {
     numb: 11,
-    question: "What does === do in JavaScript?",
-    answer: "Compares values and types",
+    question: "Which built-in method combines the text of two strings and returns a new string?",
+    answer: "concat()",
     options: [
-      "Compares only values",
-      "Compares values and types",
-      "Assigns a value",
-      "Check out for value only"
+      "add()",
+      "append()",
+      "attach()",
+      "concat()"
     ]
   },
 
   {
     numb: 12,
-    question: "What does === do in JavaScript?",
-    answer: "Compares values and types",
+    question: "How do you declare a variable that cannot be reassigned?",
+    answer: "const",
     options: [
-      "Compares only values",
-      "Compares values and types",
-      "Assigns a value",
-      "Check out for value only"
+      "let",
+      "var",
+      "const",
+      "immutable"
     ]
   },
 
   {
     numb: 13,
-    question: "What does === do in JavaScript?",
-    answer: "Compares values and types",
+    question: "Which method is used to remove the last element from an array?",
+    answer: "pop()",
     options: [
-      "Compares only values",
-      "Compares values and types",
-      "Assigns a value",
-      "Check out for value only"
+      "pop()",
+      "shift()",
+      "splice()",
+      "remove()"
     ]
   },
 
   {
     numb: 14,
-    question: "What does === do in JavaScript?",
-    answer: "Compares values and types",
+    question: "What does Array.prototype.map() return?",
+    answer: "A new array with the results of calling a function on every element",
     options: [
-      "Compares only values",
-      "Compares values and types",
-      "Assigns a value",
-      "Check out for value only"
+      "The original array modified in place",
+      "A new array with the results of calling a function on every element",
+      "A string concatenation of array elements",
+      "A new object with mapped values"
     ]
   },
 
@@ -177,145 +177,145 @@ let questions = [
 
   {
     numb: 16,
-    question: "What does === do in JavaScript?",
-    answer: "Compares values and types",
+    question: "What is the purpose of setTimeout()?",
+    answer: "Calls a function after a specified delay",
     options: [
-      "Compares only values",
-      "Compares values and types",
-      "Assigns a value",
-      "Check out for value only"
+      "Calls a function after a specified delay",
+      "Calls a function repeatedly after a delay",
+      "Stops the execution of a function",
+      "Clears a timeout"
     ]
   },
 
   {
     numb: 17,
-    question: "What does === do in JavaScript?",
-    answer: "Compares values and types",
+    question: "What is the value of null in JavaScript?",
+    answer: "An object ",
     options: [
-      "Compares only values",
-      "Compares values and types",
-      "Assigns a value",
-      "Check out for value only"
+      "An object",
+      "A number",
+      " A string",
+      " Undefined"
     ]
   },
 
   {
     numb: 18,
-    question: "What does === do in JavaScript?",
-    answer: "Compares values and types",
+    question: "What will console.log('2' + 2) output?",
+    answer: "'22'",
     options: [
-      "Compares only values",
-      "Compares values and types",
-      "Assigns a value",
-      "Check out for value only"
+      "'22'",
+      "4",
+      "'4'",
+      "NaN"
     ]
   },
 
   {
     numb: 19,
-    question: "What does === do in JavaScript?",
-    answer: "Compares values and types",
+    question: "Which keyword is used to define an asynchronous function in JavaScript?",
+    answer: "async",
     options: [
-      "Compares only values",
-      "Compares values and types",
-      "Assigns a value",
-      "Check out for value only"
+      "async",
+      "await",
+      "defer",
+      "setTimeout"
     ]
   },
 
   {
     numb: 20,
-    question: "What does === do in JavaScript?",
-    answer: "Compares values and types",
+    question: "How do you write a conditional statement in JavaScript?",
+    answer: "if (x > y) { }",
     options: [
-      "Compares only values",
-      "Compares values and types",
-      "Assigns a value",
-      "Check out for value only"
+      "if x > y then { }",
+      "if x > y { }",
+      "if (x > y) { }",
+      "if x > y do { }"
     ]
   },
 
   {
     numb: 21,
-    question: "What does === do in JavaScript?",
-    answer: "Compares values and types",
+    question: "What is the purpose of the reduce() method?",
+    answer: "Reduces the elements of an array into a single value",
     options: [
-      "Compares only values",
-      "Compares values and types",
+      "Reduces the elements of an array into a single value",
+      "Maps elements to new values",
       "Assigns a value",
-      "Check out for value only"
+      "Reverses the order of elements"
     ]
   },
 
   {
     numb: 22,
-    question: "What does === do in JavaScript?",
-    answer: "Compares values and types",
+    question: "Which of the following is not a looping structure in JavaScript?",
+    answer: "foreach",
     options: [
-      "Compares only values",
-      "Compares values and types",
-      "Assigns a value",
-      "Check out for value only"
+      "for",
+      "while",
+      "foreach",
+      "do-while"
     ]
   },
 
   {
     numb: 23,
-    question: "What does === do in JavaScript?",
-    answer: "Compares values and types",
+    question: "What does typeof [] return in JavaScript?",
+    answer: "'object'",
     options: [
-      "Compares only values",
-      "Compares values and types",
-      "Assigns a value",
-      "Check out for value only"
+      "'object'",
+      "'null'",
+      "'undefined'",
+      "'array'"
     ]
   },
 
   {
     numb: 24,
-    question: "What does === do in JavaScript?",
-    answer: "Compares values and types",
+    question: "Which statement is used to stop a loop?",
+    answer: "break",
     options: [
-      "Compares only values",
-      "Compares values and types",
-      "Assigns a value",
-      "Check out for value only"
+      "break",
+      "stop",
+      "exit",
+      "return"
     ]
   },
 
   {
     numb: 25,
-    question: "What does === do in JavaScript?",
-    answer: "Compares values and types",
+    question: "How can you convert a string to a number in JavaScript?",
+    answer: "parseInt()",
     options: [
-      "Compares only values",
-      "Compares values and types",
-      "Assigns a value",
-      "Check out for value only"
+      "parseInt()",
+      "toString()",
+      "toNumber()",
+      "change()"
     ]
   },
 
   {
     numb: 26,
-    question: "What does === do in JavaScript?",
-    answer: "Compares values and types",
+    question: "What is the output of typeof NaN?",
+    answer: "'number'",
     options: [
-      "Compares only values",
-      "Compares values and types",
-      "Assigns a value",
-      "Check out for value only"
+      "'number'",
+      "'NaN'",
+      "'undefined'",
+      "'object'"
     ]
   },
 
   {
     numb: 27,
-    question: "What does === do in JavaScript?",
-    answer: "Compares values and types",
+    question: "What is JSX in React?",
+    answer: "A JavaScript syntax extension that looks similar to XML or HTML",
     options: [
-      "Compares only values",
-      "Compares values and types",
-      "Assigns a value",
-      "Check out for value only"
+      "A CSS extension",
+      "A type of component",
+      "A function in React",
+      "A JavaScript syntax extension that looks similar to XML or HTML"
     ]
   },
 
@@ -333,127 +333,127 @@ let questions = [
 
   {
     numb: 29,
-    question: "What does === do in JavaScript?",
-    answer: "Compares values and types",
+    question: "Which method in React is used to render a component to the DOM?",
+    answer: "ReactDOM.render()",
     options: [
-      "Compares only values",
-      "Compares values and types",
-      "Assigns a value",
-      "Check out for value only"
+      "ReactDOM.render()",
+      "React.render()",
+      "React.create()",
+      "ReactDOM.create()"
     ]
   },
 
   {
     numb: 30,
-    question: "What does === do in JavaScript?",
-    answer: "Compares values and types",
+    question: "What is the purpose of the useState hook in React?",
+    answer: "To add state to functional components",
     options: [
-      "Compares only values",
-      "Compares values and types",
-      "Assigns a value",
-      "Check out for value only"
+      "To create a new component",
+      "To add state to functional components",
+      "To handle side effects",
+      "To render a component"
     ]
   },
 
   {
     numb: 31,
-    question: "What does === do in JavaScript?",
-    answer: "Compares values and types",
+    question: "How do you pass data to a child component in React?",
+    answer: "Using props",
     options: [
-      "Compares only values",
-      "Compares values and types",
-      "Assigns a value",
-      "Check out for value only"
+      "Using context",
+      "Using state",
+      "Using props",
+      " Using a function"
     ]
   },
 
   {
     numb: 32,
-    question: "What does === do in JavaScript?",
-    answer: "Compares values and types",
+    question: "What is the significance of the key prop in React?",
+    answer: "Helps identify elements in the DOM and improves performance ",
     options: [
-      "Compares only values",
-      "Compares values and types",
+      "Adds a unique identifier to components",
+      "Allows components to update dynamically",
       "Assigns a value",
-      "Check out for value only"
+      "Links components to external resources"
     ]
   },
 
   {
     numb: 33,
-    question: "What does === do in JavaScript?",
-    answer: "Compares values and types",
+    question: "Which hook is used for side effects in React components?",
+    answer: "useEffect",
     options: [
-      "Compares only values",
-      "Compares values and types",
-      "Assigns a value",
-      "Check out for value only"
+      "useEffect",
+      "useState",
+      "useContext",
+      "useReducer"
     ]
   },
 
   {
     numb: 34,
-    question: "What does === do in JavaScript?",
-    answer: "Compares values and types",
+    question: "What does React.Fragment do?",
+    answer: "Groups multiple elements without adding extra nodes to the DOM",
     options: [
-      "Compares only values",
-      "Compares values and types",
-      "Assigns a value",
-      "Check out for value only"
+      "Wraps a single element in a div",
+      "Groups multiple elements without adding extra nodes to the DOM",
+      "Creates a new component",
+      "Splits a component into smaller fragments"
     ]
   },
 
   {
     numb: 35,
-    question: "What does === do in JavaScript?",
-    answer: "Compares values and types",
+    question: "How do you handle events in React?",
+    answer: "By using camelCase syntax for event handlers, e.g., onClick",
     options: [
-      "Compares only values",
-      "Compares values and types",
-      "Assigns a value",
-      "Check out for value only"
+      "By using HTML-style event attributes",
+      "By using lowercase syntax for event handlers",
+      "By using camelCase syntax for event handlers, e.g., onClick",
+      "By adding event listeners directly to the DOM"
     ]
   },
 
   {
     numb: 36,
-    question: "What does === do in JavaScript?",
-    answer: "Compares values and types",
+    question: "What is the purpose of React.memo?",
+    answer: " To memoize the result of a component's render to prevent unnecessary re-renders",
     options: [
-      "Compares only values",
-      "Compares values and types",
-      "Assigns a value",
-      "Check out for value only"
+      "To bind functions to components",
+      "To enhance performance by caching state",
+      "To create a new instance of a component",
+      "To memoize the result of a component's render to prevent unnecessary re-renders"
     ]
   },
 
   {
     numb: 37,
-    question: "What does === do in JavaScript?",
-    answer: "Compares values and types",
+    question: "Which of the following is true about React components?",
+    answer: "Components can be stateful or stateless",
     options: [
-      "Compares only values",
-      "Compares values and types",
-      "Assigns a value",
-      "Check out for value only"
+      "Components can be stateful or stateless",
+      "Components must be class-based",
+      "Components can only be defined using functions",
+      "Components cannot manage their own state"
     ]
   },
 
   {
     numb: 38,
-    question: "What does === do in JavaScript?",
-    answer: "Compares values and types",
+    question: "What does the useReducer hook do?",
+    answer: "Manages more complex state logic by reducing actions ",
     options: [
-      "Compares only values",
-      "Compares values and types",
-      "Assigns a value",
-      "Check out for value only"
+      "Updates the state based on previous state",
+      "Manages more complex state logic by reducing actions ",
+      "Replaces useState for simple state management",
+      "Handles side effects"
     ]
   },
 
   {
     numb: 39,
-    question: "What does === do in JavaScript?",
+    question: "What is the correct command to create a new React project?",
     answer: "Compares values and types",
     options: [
       "Compares only values",
