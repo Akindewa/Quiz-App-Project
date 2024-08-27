@@ -190,7 +190,7 @@ let questions = [
   {
     numb: 17,
     question: "What is the value of null in JavaScript?",
-    answer: "An object ",
+    answer: "An object",
     options: [
       "An object",
       "A number",
@@ -261,7 +261,7 @@ let questions = [
 
   {
     numb: 23,
-    question: "What does typeof [] return in JavaScript?",
+    question: "What does typeof [ ] return in JavaScript?",
     answer: "'object'",
     options: [
       "'object'",
@@ -321,13 +321,13 @@ let questions = [
 
   {
     numb: 28,
-    question: "What does === do in JavaScript?",
-    answer: "Compares values and types",
+    question: "What is a closure in JavaScript?",
+    answer: "A function bundled with its lexical environment",
     options: [
-      "Compares only values",
-      "Compares values and types",
-      "Assigns a value",
-      "Check out for value only"
+      "A type of loop",
+      "A way to declare variables",
+      "A function bundled with its lexical environment",
+      "A method to close HTML tags"
     ]
   },
 
@@ -370,7 +370,7 @@ let questions = [
   {
     numb: 32,
     question: "What is the significance of the key prop in React?",
-    answer: "Helps identify elements in the DOM and improves performance ",
+    answer: "Helps identify elements in the DOM and improves performance",
     options: [
       "Adds a unique identifier to components",
       "Allows components to update dynamically",
@@ -525,13 +525,13 @@ let questions = [
 
   {
     numb: 45,
-    question: "How do you create a fragment in React?",
-    answer: "By using the <React.Fragment> or <> </>",
+    question: "What does the `typeof` operator return in JavaScript?",
+    answer: "The data type of a variable",
     options: [
-      "By using the <React.Fragment> or <> </>",
-      "By using a CSS class",
-      "By writing an HTML tag",
-      "By creating a new JavaScript file"
+      "The value of a variable",
+      "The size of a variable",
+      "The data type of a variable",
+      "The scope of a variable"
     ]
   },
 
