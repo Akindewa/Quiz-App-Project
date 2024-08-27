@@ -12,7 +12,7 @@ const timeCount = document.querySelector(".timer .timer_sec");
 
 // if startQuiz button clicked
 start_btn.onclick = ()=>{
-    info_box.classList.add("activeInfo"); //show info box
+    info_box.classList.add("activeInfo"); //makes the info box appear
 }
 
 // if exitQuiz button clicked
@@ -24,10 +24,10 @@ exit_btn.onclick = ()=>{
 continue_btn.onclick = ()=>{
     info_box.classList.remove("activeInfo"); //hide info box
     quiz_box.classList.add("activeQuiz"); //show quiz box
-    showQuetions(0); //calling showQestions function
-    queCounter(1); //passing 1 parameter to queCounter
-    startTimer(15); //calling startTimer function
-    startTimerLine(0); //calling startTimerLine function
+    showQuetions(0); //calling the showQestions function
+    queCounter(1); //passing one parameter to queCounter
+    startTimer(15); //calling the startTimer function
+    startTimerLine(0); //calling the startTimerLine function
 }
 
 let timeValue =  15;
@@ -41,45 +41,45 @@ let widthValue = 0;
 const restart_quiz = result_box.querySelector(".buttons .restart");
 const quit_quiz = result_box.querySelector(".buttons .quit");
 
-// if restartQuiz button clicked
+// actions to be perform if the restartQuiz button is clicked
 restart_quiz.onclick = ()=>{
-    quiz_box.classList.add("activeQuiz"); //show quiz box
+    quiz_box.classList.add("activeQuiz"); //display the quiz box
     result_box.classList.remove("activeResult"); //hide result box
     timeValue = 15; 
     que_count = 0;
     que_numb = 1;
     userScore = 0;
     widthValue = 0;
-    showQuetions(que_count); //calling showQestions function
-    queCounter(que_numb); //passing que_numb value to queCounter
-    clearInterval(counter); //clear counter
-    clearInterval(counterLine); //clear counterLine
-    startTimer(timeValue); //calling startTimer function
-    startTimerLine(widthValue); //calling startTimerLine function
+    showQuetions(que_count); //calling the showQestions function
+    queCounter(que_numb); //passing the que_numb value to queCounter
+    clearInterval(counter); //clear the  counter
+    clearInterval(counterLine); //clear the  counterLine
+    startTimer(timeValue); //calling the startTimer function
+    startTimerLine(widthValue); //calling the startTimerLine function
     timeText.textContent = "Time Left"; //change the text of timeText to Time Left
     next_btn.classList.remove("show"); //hide the next button
 }
 
-// if quitQuiz button clicked
+// if the quitQuiz button clicked
 quit_quiz.onclick = ()=>{
-    window.location.reload(); //reload the current window
+    window.location.reload(); //to reload the current window
 }
 
 const next_btn = document.querySelector("footer .next_btn");
 const bottom_ques_counter = document.querySelector("footer .total_que");
 
-// if Next Que button clicked
+// if the Next Que button clicked
 next_btn.onclick = ()=>{
-    if(que_count < questions.length - 1){ //if question count is less than total question length
-        que_count++; //increment the que_count value
-        que_numb++; //increment the que_numb value
-        showQuetions(que_count); //calling showQestions function
-        queCounter(que_numb); //passing que_numb value to queCounter
-        clearInterval(counter); //clear counter
-        clearInterval(counterLine); //clear counterLine
-        startTimer(timeValue); //calling startTimer function
-        startTimerLine(widthValue); //calling startTimerLine function
-        timeText.textContent = "Time Left"; //change the timeText to Time Left
+    if(que_count < questions.length - 1){ //if the question count is less than total question length
+        que_count++; //increment the que_count value by one
+        que_numb++; //increment the que_numb value by one
+        showQuetions(que_count); //calling the showQestions function
+        queCounter(que_numb); //passing the que_numb value to queCounter
+        clearInterval(counter); //clearing the  counter
+        clearInterval(counterLine); //clearing the  counterLine
+        startTimer(timeValue); //calling the startTimer function
+        startTimerLine(widthValue); //calling the startTimerLine function
+        timeText.textContent = "Time Left"; //changing the timeText to Time Left
         next_btn.classList.remove("show"); //hide the next button
     }else{
         clearInterval(counter); //clear counter
