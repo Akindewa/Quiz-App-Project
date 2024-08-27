@@ -453,108 +453,108 @@ let questions = [
 
   {
     numb: 39,
-    question: "What is the correct command to create a new React project?",
-    answer: "Compares values and types",
+    question: "Who developed React?",
+    answer: "Facebook",
     options: [
-      "Compares only values",
-      "Compares values and types",
-      "Assigns a value",
-      "Check out for value only"
+      "Microsoft",
+      "Google",
+      "Twitter",
+      "Facebook"
     ]
   },
 
   {
     numb: 40,
-    question: "What does === do in JavaScript?",
-    answer: "Compares values and types",
+    question: "What is React?",
+    answer: "A JavaScript library for building user interfaces",
     options: [
-      "Compares only values",
-      "Compares values and types",
-      "Assigns a value",
-      "Check out for value only"
+      " A database",
+      "A JavaScript library for building user interfaces",
+      "A programming language",
+      "A web server"
     ]
   },
 
   {
     numb: 41,
-    question: "What does === do in JavaScript?",
-    answer: "Compares values and types",
+    question: "What is a higher-order component (HOC) in React?",
+    answer: "A function that takes a component and returns a new component with additional props or behavior",
     options: [
-      "Compares only values",
-      "Compares values and types",
-      "Assigns a value",
-      "Check out for value only"
+      "A database management tool",
+      "A component with more styling options",
+      "A CSS framework",
+      "A function that takes a component and returns a new component with additional props or behavior"
     ]
   },
 
   {
     numb: 42,
-    question: "What does === do in JavaScript?",
-    answer: "Compares values and types",
+    question: "What does the key prop do in React?",
+    answer: "It uniquely identifies elements in a list to help React optimize rendering",
     options: [
-      "Compares only values",
-      "Compares values and types",
-      "Assigns a value",
-      "Check out for value only"
+      "It is used for authentication",
+      "It uniquely identifies elements in a list to help React optimize rendering",
+      "It adds styling to components",
+      "It stores data in local storage"
     ]
   },
 
   {
     numb: 43,
-    question: "What does === do in JavaScript?",
-    answer: "Compares values and types",
+    question: "Can you modify props in a child component?",
+    answer: "No, props are read-only",
     options: [
-      "Compares only values",
-      "Compares values and types",
-      "Assigns a value",
-      "Check out for value only"
+      "No, props are read-only",
+      "Only in class components",
+      "Yes, but only if the parent allows it",
+      "Yes, props can be modified freely"
     ]
   },
 
   {
     numb: 44,
-    question: "What does === do in JavaScript?",
-    answer: "Compares values and types",
+    question: "What is the difference between props and state in React?",
+    answer: "Props are used to pass data from parent to child components, while state is used to manage data within a component",
     options: [
-      "Compares only values",
-      "Compares values and types",
-      "Assigns a value",
-      "Check out for value only"
+      "Props are used for styling, while state is used for data management",
+      "Props are for databases, and state is for APIs",
+      "Props are used to pass data from parent to child components, while state is used to manage data within a component",
+      "There is no difference"
     ]
   },
 
   {
     numb: 45,
-    question: "What does === do in JavaScript?",
-    answer: "Compares values and types",
+    question: "How do you create a fragment in React?",
+    answer: "By using the <React.Fragment> or <> </>",
     options: [
-      "Compares only values",
-      "Compares values and types",
-      "Assigns a value",
-      "Check out for value only"
+      "By using the <React.Fragment> or <> </>",
+      "By using a CSS class",
+      "By writing an HTML tag",
+      "By creating a new JavaScript file"
     ]
   },
 
   {
     numb: 46,
-    question: "What does === do in JavaScript?",
-    answer: "Compares values and types",
+    question: "How does React use the virtual DOM?",
+    answer: "It compares the virtual DOM with the real DOM and only updates the parts that have changed",
     options: [
-      "Compares only values",
-      "Compares values and types",
-      "Assigns a value",
-      "Check out for value only"
+      "It ignores the real DOM",
+      "It stores data in the virtual DOM",
+      " It updates the entire real DOM every time there's a change",
+      "It compares the virtual DOM with the real DOM and only updates the parts that have changed"
     ]
   },
 
   {
     numb: 47,
-    question: "What does === do in JavaScript?",
-    answer: "Compares values and types",
+    question: "What is the purpose of the useState hook?",
+    answer: "To add state to functional components",
     options: [
-      "Compares only values",
-      "Compares values and types",
-      "Assigns a value",
+      "To add state to functional components",
+      "To add state to functional components",
+      "To manage routing",
       "Check out for value only"
     ]
   },
@@ -567,31 +567,31 @@ let questions = [
       "Compares only values",
       "Compares values and types",
       "Assigns a value",
-      "Check out for value only"
+      "To handle HTTP requests"
     ]
   },
 
   {
     numb: 49,
-    question: "What does === do in JavaScript?",
-    answer: "Compares values and types",
+    question: "What is a state in React?",
+    answer: "A built-in object that stores property values that belong to the component and can change over time",
     options: [
-      "Compares only values",
-      "Compares values and types",
-      "Assigns a value",
-      "Check out for value only"
+      "A built-in object that stores property values that belong to the component and can change over time",
+      "A place to store global variables",
+      "A CSS class",
+      "A SQL table"
     ]
   },
 
   {
     numb: 50,
-    question: "What does === do in JavaScript?",
-    answer: "Compares values and types",
+    question: "How do you pass data to a component in React?",
+    answer: "By using props (properties)",
     options: [
-      "Compares only values",
-      "Compares values and types",
-      "Assigns a value",
-      "Check out for value only"
+      "By using props (properties)",
+      "By using a database",
+      "By using CSS",
+      "By using an API call"
     ]
   }
 
