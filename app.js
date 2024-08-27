@@ -552,7 +552,7 @@ let questions = [
     question: "What is the purpose of the useState hook?",
     answer: "To add state to functional components",
     options: [
-      "To add state to functional components",
+      "To add state to components",
       "To add state to functional components",
       "To manage routing",
       "Check out for value only"
@@ -561,13 +561,13 @@ let questions = [
 
   {
     numb: 48,
-    question: "What does === do in JavaScript?",
-    answer: "Compares values and types",
+    question: "What is the output of `console.log(typeof null);` in JavaScript?",
+    answer: "'object'",
     options: [
-      "Compares only values",
-      "Compares values and types",
-      "Assigns a value",
-      "To handle HTTP requests"
+      "'undefined'",
+      "'object'",
+      "'object'",
+      "'number'"
     ]
   },
 
