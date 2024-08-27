@@ -165,13 +165,13 @@ let questions = [
 
   {
     numb: 15,
-    question: "What does === do in JavaScript?",
-    answer: "Compares values and types",
+    question: "What is JSX?",
+    answer: "A syntax extension for JavaScript that allows you to write HTML-like code inside JavaScript",
     options: [
-      "Compares only values",
-      "Compares values and types",
-      "Assigns a value",
-      "Check out for value only"
+      "A CSS framework",
+      "A syntax extension for JavaScript that allows you to write HTML-like code inside JavaScript",
+      "A database query language",
+      "A JavaScript extension for writing XML"
     ]
   },
 
@@ -194,8 +194,8 @@ let questions = [
     options: [
       "An object",
       "A number",
-      " A string",
-      " Undefined"
+      "A string",
+      "Undefined"
     ]
   },
 
@@ -363,7 +363,7 @@ let questions = [
       "Using context",
       "Using state",
       "Using props",
-      " Using a function"
+      "Using a function"
     ]
   },
 
@@ -418,7 +418,7 @@ let questions = [
   {
     numb: 36,
     question: "What is the purpose of React.memo?",
-    answer: " To memoize the result of a component's render to prevent unnecessary re-renders",
+    answer: "To memoize the result of a component's render to prevent unnecessary re-renders",
     options: [
       "To bind functions to components",
       "To enhance performance by caching state",
@@ -468,7 +468,7 @@ let questions = [
     question: "What is React?",
     answer: "A JavaScript library for building user interfaces",
     options: [
-      " A database",
+      "A database",
       "A JavaScript library for building user interfaces",
       "A programming language",
       "A web server"
@@ -542,7 +542,7 @@ let questions = [
     options: [
       "It ignores the real DOM",
       "It stores data in the virtual DOM",
-      " It updates the entire real DOM every time there's a change",
+      "It updates the entire real DOM every time there's a change",
       "It compares the virtual DOM with the real DOM and only updates the parts that have changed"
     ]
   },
